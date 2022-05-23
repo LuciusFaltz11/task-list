@@ -26,6 +26,7 @@ export function TaskList() {
 
       const allTasks = [...tasks, newTask];
       setTasks(allTasks);
+      setNewTaskTitle('');
     } else {
       alert('Insira um título para sua task!!');
     }
